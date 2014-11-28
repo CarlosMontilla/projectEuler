@@ -33,4 +33,5 @@ val test = (Int.toLarge 13195)
 val  twenty_nine = findMaxPrimeFactor test;
 val ceroLarge = Int.toLarge 0;
 val value = ceroLarge + 600851475143;
-val test1 = findMaxPrimeFactor value;
+val result = findMaxPrimeFactor value;
+print ((IntInf.toString result) ^ "\n");
