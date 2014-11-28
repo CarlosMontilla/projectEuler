@@ -31,4 +31,5 @@ fun  multiple3or5 x = multiple3 x orelse multiple5 x;
 
 
 val multiples = List.filter multiple3or5 lst;
-val suma = sum multiples
+val suma = sum multiples;
+print ((Int.toString suma) ^ "\n");
